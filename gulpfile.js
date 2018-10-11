@@ -39,6 +39,7 @@ const autoprefixer = require('autoprefixer');
 
 const argv = yargs.argv;
 const hostPort = 60572;
+const hostAddress = '0.0.0.0';
 let minify = false; // True : Enable minify on all files
 let maps = true; // True : Create source maps
 
@@ -189,6 +190,7 @@ gulp.task('all-designs-json', () => {
 
 gulp.task('connect', () => {
     connect.server({
+        host:hostAddress,
         root: ['dist'],
         port: hostPort,
         https: false,

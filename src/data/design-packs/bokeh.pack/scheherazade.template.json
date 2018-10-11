@@ -7,7 +7,7 @@
     "fonts" : "Scheherazade:400|Lato:400,400i,700",
     "size" : {
         "w": 1024,
-        "h": 1024
+        "h": 2048
     },
     "designProperties": {
         "background": {

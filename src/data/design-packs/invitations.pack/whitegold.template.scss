@@ -1,0 +1,116 @@
+@mixin font($font-family, $font-file) {
+    @font-face {
+      font-family: $font-family;
+      src: url($font-file+'.eot');
+      src: url($font-file+'.eot?#iefix') format('embedded-opentype'),
+    url($font-file+'.woff') format('woff'),
+    url($font-file+'.ttf') format('truetype'),
+    url($font-file+'.svg#aller') format('svg');
+      font-weight: normal;
+      font-style: normal;
+    }
+  }
+  
+  
+  @include font('OptimusPrinceps', './OptimusPrinceps');
+  @include font('OptimusPrincepsSemiBold', './OptimusPrincepsSemiBold');
+  @import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+
+#artboard {
+    .bg {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center center;
+        background-image: url(__background__);
+    }
+
+    .watermark{
+        writing-mode: tb-rl;
+        text-align: center;
+        position: absolute;
+        color: #a7a7a7;
+        font-size: 320px;
+        top: 17%;
+        left: 29%;
+        text-overflow: clip;
+        font-family: Work sans-serif;
+        font-weight: 900;
+        opacity: 0.4;
+    }
+    
+    .text-wrapper {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        color: #ca8e27;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        font-family: 'Scheherazade', serif;
+        text-align: center;
+        word-break: break-word;    
+    }
+
+    .text-wrapper-inner {
+        width: __textWidth__px;
+    }
+
+    .heading {
+        font-size: 40px;
+        margin-top: 140px;
+        margin-bottom: 50px;
+        font-family: 'OptimusPrinceps';
+        text-transform: uppercase;
+    }
+
+    .first-name {
+        font-size: 150px;
+        margin-bottom: 35px;
+        font-family: 'Great Vibes';
+    }
+
+    .and-text {
+        font-family: Great Vibes;
+        font-size: 60px;
+        margin-bottom: 32px;
+    }
+
+    .second-name {
+        font-size: 150px;
+        margin-bottom: 95px;
+        font-family: 'Great Vibes';
+    }
+
+    .description {
+        font-size: 44px;
+        /* text-transform: uppercase; */
+        margin-bottom: 82px;
+        font-family: "OptimusPrinceps";
+    }
+
+    .date-text {
+        font-size: 70px;
+        margin-bottom: 18px;
+        font-family: "OptimusPrinceps";
+    }
+
+    .time-text {
+        font-size: 50px;
+        margin-bottom: 115px;
+        font-family: "OptimusPrinceps";
+    }
+
+
+    .venue-title-text {
+        font-size: 70px;
+        margin-bottom: 12px;
+        font-family: "OptimusPrinceps";
+    }
+    .venue-address-text {
+        font-size: 40px;
+        margin-bottom: 12px;
+        font-family: "OptimusPrinceps";
+    }
+}

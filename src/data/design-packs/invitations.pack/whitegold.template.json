@@ -1,0 +1,85 @@
+{
+    "order": 1,
+    "title": {
+        "en": "Whitegold"
+    },
+    "fonts" : "Scheherazade:400|Lato:400,400i,700",
+    "size" : {
+        "w": 1080,
+        "h": 1920
+    },
+    "designProperties": {
+        "background": {
+            "value": "__designDataUrl__/design-assets/images/whitegold.png"
+        },
+        "textWidth": {
+            "value": 800
+        },
+        "heading" : {
+            "label": {
+                "en" : "Heading"
+            },
+            "input": "text",
+            "value": "Wedding Invitation"
+        },
+        "first-name" : {
+            "label": {
+                "en" : "First Name"
+            },
+            "input": "text",
+            "value": "Aviraj"
+        },
+        "and-text" : {
+            "label": {
+                "en" : "And Text"
+            },
+            "input": "text",
+            "value": "and"
+        },
+        "second-name" : {
+            "label": {
+                "en" : "Second Name"
+            },
+            "input": "text",
+            "value": "Paromita"
+        },
+        "sep2": {
+            "input": "separator"
+        },
+        "description" : {
+            "label": {
+                "en" : "Description"
+            },
+            "input": "text",
+            "value": "Our famililes request your presence for ausipicious occasion of the aashirwad and shakarpuda ceremony"
+        },
+        "date-text" : {
+            "label": {
+                "en" : "Date"
+            },
+            "input": "text",
+            "value": "Friday April 20th, 2018 "
+        },
+        "time-text" : {
+            "label": {
+                "en" : "Time"
+            },
+            "input": "text",
+            "value": "From 7PM Onwards"
+        },
+        "venue-title-text" : {
+            "label": {
+                "en" : "Venue Title"
+            },
+            "input": "text",
+            "value": "Clarks Inn Suites"
+        },
+        "venue-address-text" : {
+            "label": {
+                "en" : "Venue Address"
+            },
+            "input": "text",
+            "value": "Near City Center, Delhi"
+        }
+    }
+}
