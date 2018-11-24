@@ -4,6 +4,7 @@
         "en": "Scheherazade",
         "id": "Scheherazade"
     },
+    "price": "249",
     "fonts" : "Scheherazade:400|Lato:400,400i,700",
     "size" : {
         "w": 1024,
